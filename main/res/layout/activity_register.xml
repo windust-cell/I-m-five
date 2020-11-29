@@ -33,6 +33,8 @@
         android:drawableLeft="@drawable/ic_user"
         android:inputType="number"
         android:hint="请输入账号"
+        android:maxLines="1"
+        android:maxLength="11"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
@@ -44,6 +46,8 @@
         android:drawableLeft="@drawable/ic_password"
         android:inputType="textPassword"
         android:hint="请输入密码"
+        android:maxLines="1"
+        android:maxLength="13"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
@@ -55,6 +59,8 @@
         android:drawableLeft="@drawable/ic_password"
         android:inputType="textPassword"
         android:hint="请再次输入密码"
+        android:maxLines="1"
+        android:maxLength="13"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
